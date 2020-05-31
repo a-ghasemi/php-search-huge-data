@@ -4,5 +4,5 @@ include("vendor/autoload.php");
 
 use \App\Kernel;
 
-$app = new Kernel();
+$app = new Kernel(false);
 $app->run();
